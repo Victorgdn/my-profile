@@ -1,0 +1,90 @@
+body  {
+  background-color: rgb(232, 232, 232);
+  color: rgb(34, 40, 49);
+  text-align: justify-all;
+}
+h1,h2{
+  font-family: Bree Serif;
+  font-weight: lighter;
+
+}
+
+h1{
+  color: rgb(48, 71, 94);
+}
+h2{
+  color: rgb(240, 84, 84);
+}
+
+a{
+  text-decoration-line: none;
+  color: rgb(48, 71, 94);}
+
+a:hover {
+  font-weight: bolder;}
+
+/* customisation */
+.container {
+  width: 680px;
+  margin: 40px auto;
+  }
+
+@media  (max-width:760px){
+  .container {
+    width: 600px;
+  }
+}
+@media  (max-width:500px){
+  .container {
+    width: 400px;
+  }
+}
+@media  (max-width:400px){
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+  .card-white{
+    margin: 20px 0px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 3px
+  }
+  .btn{
+    background-color: rgb(48, 71, 94);
+    color: white;
+    padding: 10px 20px;
+  }
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+.list-inline >li{
+  display: inline;
+  padding:10px 10px;
+  }
+
+.list-inline i{
+  font-size: 45px;
+  color: rgb(48, 71, 94);
+}
+.list-inline i:hover {
+  color:rgb(240, 84, 84) ;
+}
+.imgform {
+  border-radius: 45% ;
+}
+#intro p{
+  margin-bottom:50px;
+}
+
+
+
+
+
